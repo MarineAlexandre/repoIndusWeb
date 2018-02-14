@@ -16,7 +16,6 @@ before_script:
 script:
   - php php-cs-fixer-v2.phar fix . --rules=@Symfony
   - docker run --rm -v $PWD:/app phpqa/security-checker security:check
-  - phpunit
 
 deploy:
   api_key:
