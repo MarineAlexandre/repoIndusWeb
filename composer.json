@@ -1,6 +1,6 @@
 {
     "name": "marine/repo-indus-web",
     "require": {
-        "php": "^5.6"
+        "phpunit/phpunit": "^5.7"
     }
 }
